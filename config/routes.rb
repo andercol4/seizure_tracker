@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  root "people#index"
+resources :people do
+    resources :seizures
+  end
+  resource :session
+  resources :passwords, param: :token
+  get "signup", to: "registrations#new"
+  post "signup", to: "registrations#create"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
