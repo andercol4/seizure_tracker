@@ -151,6 +151,7 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     mini_mime (1.1.5)
+    mini_portile2 (2.8.8)
     minitest (5.25.4)
     msgpack (1.7.5)
     net-imap (0.5.4)
@@ -167,6 +168,9 @@ GEM
     net-smtp (0.5.0)
     net-ssh (7.3.0)
     nio4r (2.7.4)
+    nokogiri (1.18.0)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.18.0-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.0-aarch64-linux-musl)
@@ -309,6 +313,7 @@ GEM
     tailwindcss-rails (3.0.0)
       railties (>= 7.0.0)
       tailwindcss-ruby
+    tailwindcss-ruby (3.4.17)
     tailwindcss-ruby (3.4.17-aarch64-linux)
     tailwindcss-ruby (3.4.17-arm-linux)
     tailwindcss-ruby (3.4.17-arm64-darwin)
@@ -350,6 +355,7 @@ PLATFORMS
   arm-linux-gnu
   arm-linux-musl
   arm64-darwin-23
+  ruby
   x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
